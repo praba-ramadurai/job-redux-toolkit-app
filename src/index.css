@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@400;700&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+/*16px*/
+
+:root {
+    --backgroundColor: #f0f4f8;
+    --textColor: #102a43;
+    --bodyFont: 'Cabin', Sans-Serif;
+    --max-width: 1120px;
+    --fluid-width: 90vw;
+    --nav-heigth: 6rem;
+
+}
+
+body {
+    background: var(--backgroundColor);
+    font-family: var(--bodyFont);
+    font-weight: 400;
+    line-height: 1.75;
+    color:var(--textColor);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    width: var(--fluid-width);
+}
